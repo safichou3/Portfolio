@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Raleway", serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));*/
+    /*background: linear-gradient(135deg, #4b6cb7, #ff758c);*/
+    /*background: linear-gradient(135deg, #6a85b6, #f06eaa);*/
+    background: linear-gradient(60deg, #408EEA, #3578E2, #436BE0, #7369E6, #A06BEA, #E37FC8, #E69BC0);
+    /*background-color: red;*/
+}
