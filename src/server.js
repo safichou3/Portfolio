@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Utilisation de la variable d'environnement PORT ou 4000 par défaut
-const port = process.env.PORT || 4000;
+const port = process.env.PORT;
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
