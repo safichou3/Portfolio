@@ -4,8 +4,6 @@ import myImg from "../../Assets/v-sign-3d.svg";
 import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
-    // AiOutlineTwitter,
-    // AiFillInstagram,
 } from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
 
@@ -54,51 +52,31 @@ function Home2() {
                 </Row>
                 <Row>
                     <Col md={12} className="home-about-social" style={{paddingTop: 50}}>
-                        <h1>Suivez-moi !</h1>
+                        <h2>Suivez-moi !</h2>
                        {/* <p>
                             Feel free to <span className="purple">connect </span>with me
                         </p>*/}
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
-                                    href="https://github.com/soumyajit4419"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
-                                >
-                                    <AiFillGithub/>
-                                </a>
-                            </li>
-                           {/* <li className="social-icons">
-                                <a
-                                    href="https://twitter.com/Soumyajit4419"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
-                                >
-                                    <AiOutlineTwitter/>
-                                </a>
-                            </li>*/}
-                            <li className="social-icons">
-                                <a
-                                    href="https://www.linkedin.com/in/soumyajit4419/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
-                                >
-                                    <FaLinkedinIn/>
-                                </a>
-                            </li>
-                           {/* <li className="social-icons">
-                                <a
-                                    href="https://www.instagram.com/soumyajit4419"
+                                    href="https://github.com/safichou3"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour home-social-icons"
                                 >
-                                    <AiFillInstagram/>
+                                    <AiFillGithub/>
                                 </a>
-                            </li>*/}
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="https://www.linkedin.com/in/safia-medjahed/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour home-social-icons"
+                                >
+                                    <FaLinkedinIn/>
+                                </a>
+                            </li>
                         </ul>
                     </Col>
                 </Row>
