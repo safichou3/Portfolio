@@ -552,14 +552,14 @@ button:focus {
 
 .btn-primary {
     color: #fff !important;
-    background-color: #623686 !important;
-    border-color: #623686 !important;
+    background-color: #623686;
+    border-color: #623686;
 }
 
 .btn-primary:hover {
     color: #fff !important;
-    background-color: #6d20c5d7 !important;
-    border-color: #6d20c5d7 !important;
+    background-color: #6d20c5d7;
+    border-color: #6d20c5d7;
 }
 
 .btn:focus {
@@ -663,6 +663,13 @@ button:focus {
 
 .resume-right {
     padding-left: 80px !important;
+}
+
+@media (max-width: 1000px) {
+    .react-pdf__Page__canvas {
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 
 @media (max-width: 767px) {

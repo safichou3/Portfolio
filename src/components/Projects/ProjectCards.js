@@ -2,10 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import {CgWebsite} from "react-icons/cg";
-import {BsGithub, BsGoogle} from "react-icons/bs";
-import {FiChrome} from "react-icons/fi";
-
-// import {cardsbody} from "../../style.css";
+import {BsGoogle} from "react-icons/bs";
 
 function ProjectCards(props) {
     return (
