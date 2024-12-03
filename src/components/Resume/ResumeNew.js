@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import {Document, Page, pdfjs} from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-import pdfGen from "../../Assets/cv/CV_Safia_Medjahed_General.pdf";
+import pdfGen from "../../Assets/cv/CV_Safia_Medjahed-General.pdf";
 import pdfDev from "../../Assets/cv/CV_Safia_Medjahed_Dev.pdf";
 import {AiOutlineDownload} from "react-icons/ai";
 
